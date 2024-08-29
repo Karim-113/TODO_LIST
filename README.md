@@ -15,15 +15,17 @@ Here's a simple summary of the code:
    - `is_valid_date(date_str)`: Checks if a date string is in the correct format (`YYYY-MM-DD`) and not in the past.
       <img width="562" alt="is valid date" src="https://github.com/user-attachments/assets/be6545e7-ce64-48ae-913b-f53737c558a1">
    - `add_task()`: Prompts the user to enter a task and a date, validates the date, and adds the task to the `todo_list` under the specified date.
-     <img width="367" alt="add task" src="https://github.com/user-attachments/assets/4185cab1-6593-4d3b-8a6e-4460ddf9c55d">
+
+     <img width="272" alt="add task" src="https://github.com/user-attachments/assets/86268fc6-b093-4475-b724-268718e5143c">
 
    - `remove_task()`: Prompts the user to enter a date, displays tasks for that date, and allows the user to remove a specific task.
-     
-      <img width="538" alt="remove task" src="https://github.com/user-attachments/assets/43c86fe8-1938-4181-ad42-91c86834e9d3">
+   - 
+     <img width="287" alt="remove task" src="https://github.com/user-attachments/assets/4acd26af-004c-4d5f-b916-f0584064914f">
 
    - `view_tasks(date=None)`: Displays tasks for a specific date or all tasks if no date is provided.
-     
-      <img width="323" alt="view tasks" src="https://github.com/user-attachments/assets/a5d1f279-bc74-4673-b146-bef7799dfaf5">
+     <img width="500" alt="view tasks" src="https://github.com/user-attachments/assets/89cc0fab-05f9-465d-b0e6-5221ab697537">
+<img width="500" alt="view the list" src="https://github.com/user-attachments/assets/20c2b2c7-84a8-401a-a115-f625d49f7b50">
+
      
    - `display_menu()`: Shows the menu options to the user.
   
@@ -36,5 +38,8 @@ Here's a simple summary of the code:
 
 4. **Program Execution**:
    - The `main()` function runs in a loop, showing the menu and processing user choices until the user decides to exit.
+  
+     <img width="193" alt="exiting" src="https://github.com/user-attachments/assets/08f8086b-a1b3-4531-be7a-f0a46bc56852">
+
 
 This code helps manage a to-do list with options to add, remove, and view tasks, ensuring date validity and proper user interaction.
